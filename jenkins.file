@@ -22,3 +22,8 @@ pipeline {
             }
         }
     }
+
+# install plugin to integrate with terraform
+terraform [plugin]
+
+go to managejankins >  credentials > add secret file  > add  service-account key-file
