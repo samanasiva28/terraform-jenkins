@@ -1,7 +1,7 @@
 provider "google" {
     project = "siva-sai-447213"
     region =  "us-central1"
-    credentials = file("key.json")
+    
 }
 resource "google_compute_network" "network-1" {
     name = "network-1"
